@@ -28,13 +28,13 @@ price = float(data['price'])
 
 
 def calculate_percentage(a, b):
-    c = b - a
-    p = c / a * 100
-    return p
+  c = b - a
+  p = c / a * 100
+  return p
 
 
 def change_price(percent, price):
-    return (percent*price) + price
+  return (percent*price) + price
 
 
 
@@ -49,4 +49,6 @@ percentage_change = (calculate_percentage(initial, new)/100)
 final_crypto_price = change_price(percentage_change, price)
 
 print("")
-print(f"At the current {choice[coin]} price of {price}, your in order for your investment to go from {initial} to {new}, the price will have to increase by {percentage_change*100}% to be {final_crypto_price}")
+print(f"At the current {choice[coin]} price of {price}, 
+      your in order for your investment to go from {initial} to {new}, 
+      the price will have to increase by {percentage_change*100}% to be {final_crypto_price}")
