@@ -50,7 +50,3 @@ final_crypto_price = change_price(percentage_change, price)
 
 print("")
 print(f"At the current {choice[coin]} price of {price}, your in order for your investment to go from {initial} to {new}, the price will have to increase by {percentage_change*100}% to be {final_crypto_price}")
-
-
-
-
